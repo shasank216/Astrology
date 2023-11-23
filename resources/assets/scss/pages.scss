@@ -1,0 +1,221 @@
+.time-slot {
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-right: 1rem;
+    height: 39px;
+    width: 170px;
+    box-shadow: 0 2px 4px -2px #79e79d;
+    background:  #47cf73;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        background-color: #3596E8 !important;;
+        cursor: pointer;
+        color: #fff;
+    }
+}
+.h-300px{
+    height: 300px;
+}
+.bookedSlot {
+    pointer-events: none;
+    color: white;
+    background: #df4f4f !important;
+    box-shadow: 0 2px 4px -2px #e87c7c;
+}
+.activeSlot {
+    background-color: #3596E8 !important;
+    cursor: pointer;
+    color: #fff;
+}
+.iti {
+    display: block !important;
+    width: 100%;
+}
+.appointment-circle .badge-circle{
+    border-radius: 50%;
+    padding: 0;
+    min-width: unset;
+    width: 12px !important;
+    height: 12px !important;
+}
+.w-150px{
+    width: 150px;
+}
+
+.swal-modal .swal-text {
+    text-align: center !important;
+}
+
+.form-control[readOnly] {
+    background-color: #fff !important;
+}
+
+.ribbon {
+    position: relative;
+}
+
+.ribbon .ribbon-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    background-color: #009EF7;
+    box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    top: 50%;
+    left: 70%;
+    transform: translateX(-5px) translateY(-50%);
+}
+
+.ribbon-vertical .ribbon-label {
+    padding: 5px 10px;
+    min-width: 36px;
+    min-height: 46px;
+    text-align: center;
+}
+
+.ribbon.ribbon-top .ribbon-label {
+    top: 0;
+    transform: translateX(-15px) translateY(-4px);
+    border-bottom-right-radius: 0.475rem;
+    border-bottom-left-radius: 0.475rem;
+}
+
+.rating-input {
+    position: absolute !important;
+    left: -9999px !important
+}
+
+.rating-input[disabled] {
+    display: none
+}
+
+.rating-label > i {
+    line-height: 1;
+    color: #b5b5c3
+}
+
+.rating-label > .svg-icon {
+    line-height: 1
+}
+
+.rating-label > .svg-icon svg [fill]:not(.permanent):not(g) {
+    transition: fill .3s ease;
+    fill: #b5b5c3
+}
+
+.rating-label > .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+    transition: fill .3s ease
+}
+
+label.rating-label {
+    cursor: pointer
+}
+
+div.rating-label.checked > i, label.rating-label > i {
+    color: #b5b5c3
+}
+
+div.rating-label.checked > .svg-icon svg [fill]:not(.permanent):not(g), label.rating-label > .svg-icon svg [fill]:not(.permanent):not(g) {
+    transition: fill .3s ease;
+    fill: #FFC107FF
+}
+
+div.rating-label.checked > .svg-icon svg:hover [fill]:not(.permanent):not(g), label.rating-label > .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+    transition: fill .3s ease
+}
+
+.rating-input:checked ~ .rating-label > i {
+    color: #b5b5c3
+}
+
+.rating-input:checked ~ .rating-label > .svg-icon svg [fill]:not(.permanent):not(g) {
+    transition: fill .3s ease;
+    fill: #b5b5c3
+}
+
+.rating-input:checked ~ .rating-label > .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+    transition: fill .3s ease
+}
+
+.rating:hover label.rating-label > i {
+    color: #FFC107FF
+}
+
+.rating:hover label.rating-label > .svg-icon svg [fill]:not(.permanent):not(g) {
+    transition: fill .3s ease;
+    fill: #FFC107FF
+}
+
+.rating:hover label.rating-label > .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+    transition: fill .3s ease
+}
+
+label.rating-label:hover ~ .rating-label > i {
+    color: #b5b5c3
+}
+
+label.rating-label:hover ~ .rating-label > .svg-icon svg [fill]:not(.permanent):not(g) {
+    transition: fill .3s ease;
+    fill: #b5b5c3
+}
+
+label.rating-label:hover ~ .rating-label > .svg-icon svg:hover [fill]:not(.permanent):not(g) {
+    transition: fill .3s ease
+}
+
+.avg-review-star-div {
+    .review-star {
+        color: #FFC107FF;
+        font-size: 15px;
+    }
+
+    .review-count {
+        color: #CED4DAFF;
+    }
+}
+
+.review-star-div {
+    .review-star {
+        color: #FFC107FF;
+        font-size: 25px;
+    }
+
+    .review-count {
+        color: #CED4DAFF;
+    }
+}
+
+.bg-status-canceled {
+    background-color: #F1416C !important;
+}
+
+.bg-status-booked {
+    background-color: #399EF7 !important;
+}
+
+.bg-status-checkIn {
+    background-color: #50CD89 !important;
+}
+
+.bg-status-checkOut {
+    background-color: #FAC702 !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.sidebar-app-logo {
+    max-height: 50px;
+    max-width: 120px;
+}
+
+.card-logo-height {
+  height: 20px !important;
+}
